@@ -7,30 +7,32 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Oybek / Oybek Valiyev"
-title_separator          : "-"
-name                     : &name "Valiyev Oybek"
-description              : &description "AI Engineer"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://varzik07.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "varzik07/varzik07.github.io"
+# Basic Site Settings
+locale: "en-US"
+site_theme: "default"
+
+title: "Oybek Valiyev"
+title_separator: "-"
+name: "Oybek Valiyev"
+description: "AI Engineer | Medical Imaging | Radiomics"
+
+url: "https://varzik07.github.io"
+baseurl: ""
+repository: "varzik07/varzik07.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Oybek Valiyev"
-  pronouns         : # example: "she/her"  
-  bio              : "Researcher in Medical Imaging and AI"
-  location         : "South Korea"
-  employer         : "Kumoh national institute of technology"
-  uri              : # URL
-  email            : "oybek07valiyev@gmail.com" 
+  avatar: "profile.png"
+  name: "Oybek Valiyev"
+  bio: "AI Engineer and Researcher in Medical Imaging"
+  location: "South Korea"
+  employer: "Kumoh National Institute of Tech."
+  email: "oybek07valiyev@gmail.com"
+
+  github: "varzik07"
+  linkedin: # qo‘shsangiz yaxshi bo‘ladi
 
   # # Academic websites
   # academia         : # URL
@@ -57,7 +59,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :  # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
